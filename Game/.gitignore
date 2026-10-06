@@ -1,16 +1,16 @@
-# Unity generated folders
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
-/[Mm]emoryCaptures/
-/[Rr]ecordings/
+# Unity-generated folders (works for Unity projects nested inside Game)
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/[Mm]emoryCaptures/
+**/[Rr]ecordings/
 
 # IDE files
-/.vs/
+**/.vs/
 *.csproj
 *.sln
 *.suo
@@ -27,4 +27,3 @@
 
 # Unity crash reports
 sysinfo.txt
-
