@@ -1,0 +1,24 @@
+# Local Codex build files
+.codex-finalizer/
+.codex-presentation-build/
+output/
+
+# macOS and Windows
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Node.js backend and website
+**/node_modules/
+**/dist/
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Local builds
+Build/
+Builds/
+
